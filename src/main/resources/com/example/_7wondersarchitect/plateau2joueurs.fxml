@@ -3,32 +3,19 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._7wondersarchitect.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._7wondersarchitect.HelloController">
     <children>
-      <ImageView fitHeight="792.0" fitWidth="627.0" layoutY="-6.0">
+      <ImageView fitHeight="800.0" fitWidth="645.0">
          <image>
             <Image url="@../../../images/images-fxml/parquet.png" />
          </image>
       </ImageView>
-        <ImageView fitHeight="42.0" fitWidth="45.0" layoutX="212.0" layoutY="478.0">
-            <image>
-                <Image url="@../../../images/tokens/token-conflict-peace.png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="54.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="142.4">
-            <image>
-                <Image url="@../../../images/cards/card-material-stone-stonecutter.png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="99.0" fitWidth="181.0" layoutX="227.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="99.0" fitWidth="181.0" layoutX="227.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../images/cards/card-back/card-back-question.png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="507.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true" rotate="-37.6">
-            <image>
-                <Image url="@../../../images/cards/card-progress-law.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="156.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
@@ -51,12 +38,27 @@
                 <Image url="@../../../images/tokens-progress/token-ingeniery.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="400.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="206.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="292.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="250.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="401.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="382.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" rotate="-121.9">
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="410.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="-121.9">
             <image>
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
@@ -66,7 +68,7 @@
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="452.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" rotate="-88.3">
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="459.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true" rotate="-88.3">
             <image>
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
@@ -81,7 +83,7 @@
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="474.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" rotate="43.5">
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="475.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true" rotate="43.5">
             <image>
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
@@ -96,29 +98,162 @@
                 <Image url="@../../../images/tokens/token-3-laurel-points.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="86.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="75.0" fitWidth="30.0" layoutX="229.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../images/tokens/token-cat.png" />
             </image>
         </ImageView>
-      <ImageView fitHeight="42.0" fitWidth="45.0" layoutX="261.0" layoutY="478.0">
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8f5" height="99.0" layoutX="301.0" layoutY="340.0" opacity="0.46" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+        <Line endX="-38.0" endY="105.0" layoutX="406.0" layoutY="333.0" startX="-101.0" startY="9.0" strokeType="OUTSIDE" />
+        <Line endX="-49.72956085205078" endY="109.12260437011719" layoutX="406.0" layoutY="333.0" rotate="55.8" startX="-90.54258728027344" startY="1.2523748874664307" strokeType="OUTSIDE" />
+        <ImageView fx:id="cartewonder1" fitHeight="99.0" fitWidth="77.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/cards/card-material-stone-stonecutter.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder2" fitHeight="99.0" fitWidth="77.0" layoutX="542.0" layoutY="340.0" onMouseClicked="#deplacementCarte2" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+            <image>
+                <Image url="@../../../images/cards/card-progress-law.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="rhodesDeck2" fitHeight="302.0" fitWidth="89.0" layoutX="14.0" layoutY="10.0" rotate="180.0" visible="false">
          <image>
-            <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            <Image url="@../../../images/decks/deck-rhodes.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="42.0" fitWidth="45.0" layoutX="310.0" layoutY="478.0">
+      <ImageView fx:id="olympieDeck2" fitHeight="302.0" fitWidth="89.0" layoutX="14.0" layoutY="10.0" rotate="180.0" visible="false">
          <image>
-            <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            <Image url="@../../../images/decks/deck-olympie.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="200.0" fitWidth="161.0" layoutX="253.0" layoutY="553.0">
+      <ImageView fx:id="halicarnasseDeck2" fitHeight="302.0" fitWidth="89.0" layoutX="14.0" layoutY="10.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-halicarnasse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gizehDeck2" fitHeight="302.0" fitWidth="89.0" layoutX="15.0" layoutY="10.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-gizeh.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="epheseDeck2" fitHeight="302.0" fitWidth="88.0" layoutX="15.0" layoutY="10.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-ephese.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="alexandrieDeck2" fitHeight="302.0" fitWidth="89.0" layoutX="15.0" layoutY="16.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-alexandrie.png" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="babyloneDeck2" fitHeight="302.0" fitWidth="155.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" visible="false">
+            <image>
+                <Image url="@../../../images/decks/deck-babylone.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="alexandrieDeck1" fitHeight="302.0" fitWidth="155.0" layoutX="527.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true" visible="false">
+            <image>
+                <Image url="@../../../images/decks/deck-alexandrie.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="babyloneDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-babylone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="epheseDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-ephese.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gizehDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-gizeh.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="halicarnasseDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-halicarnasse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="olympieDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-olympie.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rhodesDeck1" fitHeight="302.0" fitWidth="88.0" layoutX="527.0" layoutY="473.0" visible="false">
+         <image>
+            <Image url="@../../../images/decks/deck-rhodes.png" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="alexandrieWonder1" fitHeight="188.0" fitWidth="277.0" layoutX="242.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" visible="false">
+            <image>
+                <Image url="@../../../images/wonders/alexandrie/wonder-alexandrie-back.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="alexandrieWonder2" fitHeight="200.0" fitWidth="161.0" layoutX="270.0" layoutY="61.0" rotate="180.0" visible="false">
          <image>
             <Image url="@../../../images/wonders/alexandrie/wonder-alexandrie-back.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="198.0" fitWidth="200.0" layoutX="233.0" layoutY="40.0">
+        <ImageView fx:id="babyloneWonder2" fitHeight="165.0" fitWidth="186.0" layoutX="264.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" visible="false">
+            <image>
+                <Image url="@../../../images/wonders/babylone/wonder-babylone-back.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="babyloneWonder1" fitHeight="200.0" fitWidth="186.0" layoutX="221.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/babylone/wonder-babylone-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="epheseWonder2" fitHeight="198.0" fitWidth="200.0" layoutX="250.0" layoutY="68.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/ephese/wonder-ephese-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="epheseWonder1" fitHeight="198.0" fitWidth="200.0" layoutX="214.0" layoutY="530.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/ephese/wonder-ephese-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gizehWonder1" fitHeight="174.0" fitWidth="200.0" layoutX="213.0" layoutY="553.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/giseh/wonder-giseh-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gizehWonder2" fitHeight="174.0" fitWidth="200.0" layoutX="258.0" layoutY="64.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/giseh/wonder-giseh-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="halicarnasseWonder1" fitHeight="200.0" fitWidth="158.0" layoutX="244.0" layoutY="529.0" visible="false">
          <image>
             <Image url="@../../../images/wonders/halicarnasse/wonder-halicarnasse-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="halicarnasseWonder2" fitHeight="200.0" fitWidth="158.0" layoutX="271.0" layoutY="61.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/halicarnasse/wonder-halicarnasse-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="olympieWonder1" fitHeight="200.0" fitWidth="160.0" layoutX="234.0" layoutY="529.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/olympie/wonder-olympie-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="olympieWonder2" fitHeight="200.0" fitWidth="160.0" layoutX="278.0" layoutY="61.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/olympie/wonder-olympie-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rhodesWonder1" fitHeight="200.0" fitWidth="172.0" layoutX="209.0" layoutY="529.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/rhodes/wonder-rhodes-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rhodesWonder2" fitHeight="200.0" fitWidth="172.0" layoutX="272.0" layoutY="61.0" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../../../images/wonders/rhodes/wonder-rhodes-back.png" />
          </image>
       </ImageView>
     </children>

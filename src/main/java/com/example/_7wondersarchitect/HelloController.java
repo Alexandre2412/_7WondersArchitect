@@ -15,6 +15,7 @@ import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+
 import java.io.IOException;
 
 
@@ -23,6 +24,7 @@ public class HelloController {
     @FXML
     private static Slider numberplayers;
     static int nombrejoueurs;
+    private int compteur = 2;
     @FXML
     private TextField namePlayer;
     @FXML
@@ -30,9 +32,17 @@ public class HelloController {
     @FXML
     private Button joueur2ID, lancementBoutonID;
     @FXML
-    private ImageView cartewonder1, cartewonder2, cartewonder3, cartewonder4, cartewonder5, cartewonder6, cartewonder7;
+    private ImageView cartewonder1, cartewonder2;
     @FXML
     private ImageView alexandrie1, babylone1, ephese1, gizeh1, halicarnasse1, olympie1, rhodes1;
+    @FXML
+    private ImageView alexandrieWonder1, babyloneWonder1, epheseWonder1, gizehWonder1, halicarnasseWonder1, olympieWonder1, rhodesWonder1;
+    @FXML
+    private ImageView alexandrieWonder2, babyloneWonder2, epheseWonder2, gizehWonder2, halicarnasseWonder2, olympieWonder2, rhodesWonder2;
+    @FXML
+    private ImageView alexandrieDeck1, babyloneDeck1, epheseDeck1, gizehDeck1, halicarnasseDeck1, olympieDeck1, rhodesDeck1;
+    @FXML
+    private ImageView alexandrieDeck2, babyloneDeck2, epheseDeck2, gizehDeck2, halicarnasseDeck2, olympieDeck2, rhodesDeck2;
     /*
     =============================================================================================================
     */
@@ -67,7 +77,7 @@ public class HelloController {
             e.printStackTrace();
         }
     }
-private int compteur=2;
+
     public void joueur2() {
         if (alexandrieCheckBox.isSelected()) {
             alexandrieCheckBox.setVisible(false);
@@ -112,12 +122,41 @@ private int compteur=2;
     public void lancementBouton(ActionEvent event) {
         try {
             Stage stage = new Stage();
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("game.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
+            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("plateau2joueurs.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 645, 800);
             stage.setTitle("Plateau de jeu");
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            if (alexandrieCheckBox.isSelected()) {
+                alexandrieWonder1.setVisible(true);
+                alexandrieDeck1.setVisible(true);
+            }
+            if (babyloneCheckBox.isSelected()) {
+                babyloneWonder1.setVisible(true);
+                babyloneDeck1.setVisible(true);
+            }
+            if (epheseCheckBox.isSelected()) {
+                epheseWonder1.setVisible(true);
+                epheseDeck1.setVisible(true);
+            }
+            if (gizehCheckBox.isSelected()) {
+                gizehWonder1.setVisible(true);
+                gizehDeck1.setVisible(true);
+            }
+            if (halicarnasseCheckBox.isSelected()) {
+                halicarnasseWonder1.setVisible(true);
+                halicarnasseDeck1.setVisible(true);
+            }
+            if (olympieCheckBox.isSelected()) {
+                olympieWonder1.setVisible(true);
+                olympieDeck1.setVisible(true);
+            }
+            if (rhodesCheckBox.isSelected()) {
+                rhodesWonder1.setVisible(true);
+                rhodesDeck1.setVisible(true);
+            }
+
         }
         catch (IOException e) {
             e.printStackTrace();
@@ -141,58 +180,18 @@ private int compteur=2;
 
     public void deplacementCarte1() {
         TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder1);
-        transition.setToX(297);
-        transition.setToY(345);
-        Rotate rotate = new Rotate(270);
+        transition.setToX(263);
+        transition.setToY(0);
+        Rotate rotate = new Rotate(0);
         cartewonder1.getTransforms().add(rotate);
         transition.play();
     }
     public void deplacementCarte2() {
         TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder2);
-        transition.setToX(294);
-        transition.setToY(94);
-        Rotate rotate = new Rotate(270);
+        transition.setToX(-307);
+        transition.setToY(-99);
+        Rotate rotate = new Rotate(180);
         cartewonder2.getTransforms().add(rotate);
-        transition.play();
-    }
-    public void deplacementCarte3() {
-        TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder3);
-        transition.setToX(343);
-        transition.setToY(-216);
-        Rotate rotate = new Rotate(330);
-        cartewonder3.getTransforms().add(rotate);
-        transition.play();
-    }
-    public void deplacementCarte4() {
-        TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder4);
-        transition.setToX(119);
-        transition.setToY(-279);
-        Rotate rotate = new Rotate(0);
-        cartewonder4.getTransforms().add(rotate);
-        transition.play();
-    }
-    public void deplacementCarte5() {
-        TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder5);
-        transition.setToX(-125);
-        transition.setToY(-258);
-        Rotate rotate = new Rotate(30);
-        cartewonder5.getTransforms().add(rotate);
-        transition.play();
-    }
-    public void deplacementCarte6() {
-        TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder6);
-        transition.setToX(-326);
-        transition.setToY(-84);
-        Rotate rotate = new Rotate(75);
-        cartewonder6.getTransforms().add(rotate);
-        transition.play();
-    }
-    public void deplacementCarte7() {
-        TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder7);
-        transition.setToX(-353);
-        transition.setToY(123);
-        Rotate rotate = new Rotate(90);
-        cartewonder7.getTransforms().add(rotate);
         transition.play();
     }
 

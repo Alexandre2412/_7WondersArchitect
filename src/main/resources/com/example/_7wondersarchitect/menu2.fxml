@@ -36,7 +36,7 @@
             <Font size="25.0" />
          </font>
       </Button>
-      <Button fx:id="lancementBoutonID" layoutX="798.0" layoutY="40.0" mnemonicParsing="false" onAction="#lancementBoutonbis" prefHeight="55.0" prefWidth="152.0" text="JOUER" visible="false">
+      <Button fx:id="lancementBoutonID" layoutX="798.0" layoutY="40.0" mnemonicParsing="false" onAction="#lancementBouton" prefHeight="55.0" prefWidth="152.0" text="JOUER" visible="false">
          <font>
             <Font size="25.0" />
          </font>
