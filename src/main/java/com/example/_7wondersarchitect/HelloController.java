@@ -25,7 +25,6 @@ public class HelloController {
     static int nombrejoueurs;
     @FXML
     private TextField namePlayer;
-    static String nomJoueurs;
     @FXML
     private CheckBox alexandrieCheckBox, babyloneCheckBox, epheseCheckBox, gizehCheckBox, halicarnasseCheckBox, olympieCheckBox, rhodesCheckBox;
     @FXML

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="975.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._7wondersarchitect.HelloController">
+    <children>
+      <ImageView fitHeight="852.0" fitWidth="983.0" layoutX="-4.0" layoutY="-2.0">
+         <image>
+            <Image url="@../../../images/images-fxml/parquet.png" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="99.0" fitWidth="181.0" layoutX="350.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/cards/card-back/card-back-question.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="285.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens-progress/back/token-back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="285.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens-progress/token-ingeniery.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="414.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="334.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="415.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="577.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" rotate="-57.3">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="563.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true" rotate="48.0">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="582.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true" rotate="33.7">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="529.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="540.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" rotate="-33.7">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="551.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="67.0" fitWidth="35.0" layoutX="443.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-cat.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="284.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens-progress/token-tactic.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="284.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens-progress/token-urbanism.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="376.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="375.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="334.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-conflict-peace.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="650.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="621.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true" rotate="-55.8">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="551.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="551.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" rotate="-27.8">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="594.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true" rotate="34.6">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="608.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" rotate="28.6">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="517.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="621.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="595.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/tokens/token-3-laurel-points.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="729.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+            <image>
+                <Image url="@../../../images/wonders/alexandrie/wonder-alexandrie-back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="93.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+            <image>
+                <Image url="@../../../images/wonders/ephese/wonder-ephese-back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="162.0" fitWidth="183.0" layoutX="146.0" layoutY="576.0" pickOnBounds="true" preserveRatio="true" rotate="27.8">
+            <image>
+                <Image url="@../../../images/wonders/halicarnasse/wonder-halicarnasse-back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="370.0" layoutY="596.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/wonders/rhodes/wonder-rhodes-back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="609.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true" rotate="-28.1">
+            <image>
+                <Image url="@../../../images/wonders/babylone/wonder-babylone-back.png" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="409.0" fitWidth="450.0" layoutX="263.0" layoutY="-41.0">
+         <image>
+            <Image url="@../../../images/images-fxml/logo-7wonders.png" />
+         </image>
+      </ImageView>
+        <Label layoutX="837.0" layoutY="786.0" prefHeight="81.0" prefWidth="167.0" text="©SilveiraMartinez" textFill="#ebe5e5">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="174.0" fitWidth="200.0" layoutX="88.0" layoutY="348.0" rotate="90.0">
+         <image>
+            <Image url="@../../../images/wonders/giseh/wonder-giseh-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="160.0" layoutX="708.0" layoutY="54.0" rotate="270.0">
+         <image>
+            <Image url="@../../../images/wonders/olympie/wonder-olympie-back.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="99.0" layoutX="436.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="68.0">
+         <fill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.5" cycleMethod="REFLECT" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="420.0" layoutY="375.0" prefHeight="30.0" prefWidth="113.0" rotate="-60.5" text="Défausse" textFill="#faff00">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="20.0" />
+         </font>
+      </Label>
+        <ImageView fx:id="cartewonder1" fitHeight="99.0" fitWidth="77.0" layoutX="139.0" layoutY="5.0" onMouseClicked="#deplacementCarte1" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../../../images/cards/card-progress-architect.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder2" fitHeight="99.0" fitWidth="77.0" layoutX="142.0" layoutY="256.0" onMouseClicked="#deplacementCarte2" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../../../images/cards/card-politic-emperor-3laurel.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder3" fitHeight="99.0" fitWidth="77.0" layoutX="93.0" layoutY="566.0" onMouseClicked="#deplacementCarte3" pickOnBounds="true" preserveRatio="true" rotate="30.0">
+            <image>
+                <Image url="@../../../images/cards/card-war-archer-2corns.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder4" fitHeight="99.0" fitWidth="77.0" layoutX="317.0" layoutY="629.0" onMouseClicked="#deplacementCarte4" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/cards/card-material-paper-women.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder5" fitHeight="99.0" fitWidth="80.0" layoutX="561.0" layoutY="608.0" onMouseClicked="#deplacementCarte5" pickOnBounds="true" preserveRatio="true" rotate="330.0">
+            <image>
+                <Image url="@../../../images/cards/card-material-gold-vizir.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder6" fitHeight="99.0" fitWidth="77.0" layoutX="762.0" layoutY="434.0" onMouseClicked="#deplacementCarte6" pickOnBounds="true" preserveRatio="true" rotate="285.0">
+            <image>
+                <Image url="@../../../images/cards/card-progress-law.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="cartewonder7" fitHeight="99.0" fitWidth="77.0" layoutX="789.0" layoutY="227.0" onMouseClicked="#deplacementCarte7" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+            <image>
+                <Image url="@../../../images/cards/card-material-glass-women.png" />
+            </image>
+        </ImageView>
+    </children>
+</Pane>
