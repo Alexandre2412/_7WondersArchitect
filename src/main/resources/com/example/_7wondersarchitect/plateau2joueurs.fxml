@@ -18,7 +18,7 @@
                 <Image url="@../../../images/cards/card-back/card-back-question.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="156.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="163.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../images/tokens-progress/back/token-back.png" />
             </image>
@@ -106,7 +106,7 @@
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8f5" height="99.0" layoutX="301.0" layoutY="340.0" opacity="0.46" stroke="BLACK" strokeType="INSIDE" width="68.0" />
         <Line endX="-38.0" endY="105.0" layoutX="406.0" layoutY="333.0" startX="-101.0" startY="9.0" strokeType="OUTSIDE" />
         <Line endX="-49.72956085205078" endY="109.12260437011719" layoutX="406.0" layoutY="333.0" rotate="55.8" startX="-90.54258728027344" startY="1.2523748874664307" strokeType="OUTSIDE" />
-        <ImageView fx:id="cartewonder1" fitHeight="99.0" fitWidth="77.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte1" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="cartewonder1" fitHeight="98.0" fitWidth="68.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte1" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../images/cards/card-material-stone-stonecutter.png" />
             </image>
@@ -254,6 +254,116 @@
       <ImageView fx:id="rhodesWonder2" fitHeight="200.0" fitWidth="172.0" layoutX="272.0" layoutY="61.0" rotate="180.0" visible="false">
          <image>
             <Image url="@../../../images/wonders/rhodes/wonder-rhodes-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder3" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte3">
+         <image>
+            <Image url="@../../../images/cards/card-material-glass-women.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder5" fitHeight="98.0" fitWidth="68.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte5">
+         <image>
+            <Image url="@../../../images/cards/card-material-gold-vizir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder9" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte9">
+         <image>
+            <Image url="@../../../images/cards/card-war-centurion.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder11" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte11">
+         <image>
+            <Image url="@../../../images/cards/card-material-wood-lumberjack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder15" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte15">
+         <image>
+            <Image url="@../../../images/cards/card-politic-emperor-3laurel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder17" fitHeight="98.0" fitWidth="68.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte17">
+         <image>
+            <Image url="@../../../images/cards/card-politic-women-2laurel-cat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder19" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte19">
+         <image>
+            <Image url="@../../../images/cards/card-progress-architect.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder21" fitHeight="98.0" fitWidth="68.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte21">
+         <image>
+            <Image url="@../../../images/cards/card-progress-law.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder7" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte7">
+         <image>
+            <Image url="@../../../images/cards/card-war-barbarian-1corn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder13" fitHeight="98.0" fitWidth="68.0" layoutX="38.0" layoutY="340.0" onMouseClicked="#deplacementCarte13">
+         <image>
+            <Image url="@../../../images/cards/card-war-archer-2corns.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder23" fitHeight="98.0" fitWidth="68.0" layoutX="37.0" layoutY="340.0" onMouseClicked="#deplacementCarte23">
+         <image>
+            <Image url="@../../../images/cards/card-progress-mechanic.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder4" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte4" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-material-glass-women.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder6" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte6" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-material-gold-vizir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder10" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte10" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-war-centurion.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder8" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte8" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-war-barbarian-1corn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder12" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte12" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-material-wood-lumberjack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder14" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte14" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-war-archer-2corns.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder16" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte16" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-politic-emperor-3laurel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder8" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte8" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-politic-women-2laurel-cat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder10" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte10" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-progress-architect.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder24" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte24" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-progress-mechanic.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartewonder22" fitHeight="98.0" fitWidth="68.0" layoutX="541.0" layoutY="340.0" onMouseClicked="#deplacementCarte22" rotate="180.0">
+         <image>
+            <Image url="@../../../images/cards/card-material-stone-stonecutter.png" />
          </image>
       </ImageView>
     </children>
