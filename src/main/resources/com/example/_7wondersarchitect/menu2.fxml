@@ -76,12 +76,12 @@
             <Image url="@../../../images/decks/deck-rhodes.png" />
          </image>
       </ImageView>
-      <CheckBox fx:id="alexandrieCheckBox" layoutX="91.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="babyloneCheckBox" layoutX="228.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="epheseCheckBox" layoutX="362.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="gizehCheckBox" layoutX="496.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="halicarnasseCheckBox" layoutX="630.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="olympieCheckBox" layoutX="765.0" layoutY="441.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
-      <CheckBox fx:id="rhodesCheckBox" layoutX="896.0" layoutY="439.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="alexandrieCheckBox" layoutX="91.0" layoutY="441.0" mnemonicParsing="false" onAction="#alexandrieCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="babyloneCheckBox" layoutX="228.0" layoutY="441.0" mnemonicParsing="false" onAction="#babyloneCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="epheseCheckBox" layoutX="362.0" layoutY="441.0" mnemonicParsing="false" onAction="#epheseCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="gizehCheckBox" layoutX="496.0" layoutY="441.0" mnemonicParsing="false" onAction="#gizehCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="halicarnasseCheckBox" layoutX="630.0" layoutY="441.0" mnemonicParsing="false" onAction="#halicarnasseCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="olympieCheckBox" layoutX="765.0" layoutY="441.0" mnemonicParsing="false" onAction="#olympieCheck" prefHeight="17.0" prefWidth="0.0" />
+      <CheckBox fx:id="rhodesCheckBox" layoutX="896.0" layoutY="439.0" mnemonicParsing="false" onAction="#rhodesCheck" prefHeight="17.0" prefWidth="0.0" />
    </children>
 </AnchorPane>
