@@ -22,7 +22,7 @@ import java.io.IOException;
 import static com.example._7wondersarchitect.HelloController.*;
 
 public class GameController {
-
+    // Création des variables
     @FXML
     private ImageView cartewonder1, cartewonder2, cartewonder3, cartewonder4, cartewonder5, cartewonder6, cartewonder7, cartewonder8, cartewonder9, cartewonder10, cartewonder11, cartewonder12, cartewonder13, cartewonder14, cartewonder15, cartewonder16, cartewonder17, cartewonder18, cartewonder19, cartewonder20, cartewonder21, cartewonder22, cartewonder23, cartewonder24;
     @FXML
@@ -35,7 +35,7 @@ public class GameController {
     private  ImageView alexandrieDeck2, babyloneDeck2, epheseDeck2, gizehDeck2, halicarnasseDeck2, olympieDeck2, rhodesDeck2;
 
     public void initialize() {
-        if (HelloController.wonderSelection [0] == 1) {
+        if (HelloController.wonderSelection [0] == 1) { // Sur la page précédente, le choix des merveilles fait apparaitre sur le plateau la merveille selectionné
             alexandrieWonder1.setVisible(true);
             alexandrieDeck1.setVisible(true);
             HelloController.wonderSelection [0] = 0;
@@ -100,7 +100,7 @@ public class GameController {
         }
     }
 
-    public void deplacementCarte1(MouseEvent mouseEvent) {
+    public void deplacementCarte1(MouseEvent mouseEvent) { // Déplacement des cartes du deck
         TranslateTransition transition = new TranslateTransition(Duration.seconds(2), cartewonder1);
         transition.setToX(263);
         transition.setToY(0);

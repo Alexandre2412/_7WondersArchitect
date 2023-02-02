@@ -18,6 +18,7 @@ import java.io.IOException;
 
 public class HelloController {
 
+    // Création de variables
     @FXML
     private static Slider numberplayers;
     static int nombrejoueurs;
@@ -43,7 +44,7 @@ public class HelloController {
     =============================================================================================================
     */
 
-    public void onHelloButtonClick(ActionEvent event) {
+    public void onHelloButtonClick(ActionEvent event) { // Création de la 2ème page pour choisir le nombre de joueurs
         try {
             Stage stage = new Stage();
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("menu.fxml"));
@@ -58,7 +59,7 @@ public class HelloController {
         }
     }
 
-    public void joueur1(ActionEvent event) {
+    public void joueur1(ActionEvent event) {     //Création de la 3ème page choix de la merveille
 
         try {
                 Stage stage = new Stage();
@@ -73,6 +74,7 @@ public class HelloController {
             e.printStackTrace();
         }
     }
+    // Chaque checkbox correspondant au merveille peut etre selectionné
     @FXML
     void alexandrieCheck(ActionEvent event) {
         alexandrieCheckBox.setSelected(true);
@@ -102,7 +104,7 @@ public class HelloController {
         rhodesCheckBox.setSelected(true);
     }
     public void joueur2() {
-        if (alexandrieCheckBox.isSelected()) {
+        if (alexandrieCheckBox.isSelected()) { //Quand une checkbox est selectionné elle disparait ainsi que l'image associé
             alexandrieCheckBox.setVisible(false);
             alexandrie1.setVisible(false);
             wonderSelection[0] = 1 ;
@@ -156,7 +158,7 @@ public class HelloController {
         }
     }
 
-    public void lancementBouton(ActionEvent event) {
+    public void lancementBouton(ActionEvent event) { // Création du plateau de jeu à 2 joueurs
         try {
             Stage stage = new Stage();
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("plateau2joueurs.fxml"));
@@ -173,7 +175,7 @@ public class HelloController {
     }
 
 
-    public void lancementBoutonbis(ActionEvent event) {
+    public void lancementBoutonbis(ActionEvent event) { // Création du plateau de jeu à 7 joueurs
         try {
             Stage stage = new Stage();
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("plateau7joueurs.fxml"));
